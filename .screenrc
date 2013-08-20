@@ -1,0 +1,6 @@
+# Screen setting
+# showing hosname, screen sessions, load avg, date and time. "|" as field separators 
+#
+caption string "%?%F%{= Bk}%? %C%A %D %d-%m-%Y %{= kB} %t%= %?%F%{= Bk}%:%{= wk}%? %n "
+hardstatus alwayslastline
+hardstatus string '%{= kG}[%{Y}%H%{g}]%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}|%{r}%l%{g}|%{B}%d/%m%{W}|%c'
