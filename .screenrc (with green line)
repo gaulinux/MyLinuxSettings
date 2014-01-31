@@ -1,0 +1,6 @@
+
+caption string "%{=u kg}"
+caption always
+hardstatus alwayslastline
+hardstatus string '%{= kG}[%{Y}%H%{g}]%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}|%{r}%l%{g}|%{B}%d/%m%{W}|%c'
+termcapinfo rxvt* 'hs:ts=\E]2;:fs=\007:ds=\E]2;\007'
