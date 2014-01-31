@@ -1,4 +1,8 @@
-
+# Screen settings
+#
+# showing hosname, screen sessions, load avg, date and time. "|" as field separators
+# with a green underscore line on top of status
+#
 caption string "%{=u kg}"
 caption always
 hardstatus alwayslastline
